@@ -1,0 +1,38 @@
+.cart-counter{
+    display: none;
+}
+@media(max-width:768px){
+    .header {
+        padding-bottom: 3px;
+    }
+    .logo {
+        width: 94px;
+        height: 39px;
+    }
+    .header__button {
+        width: 30px;
+        height: 30px;
+    }
+    .header-nav__cart-btn {
+        position: relative;
+        margin-right: 13px;
+        width: 24px;
+        height: 24px;
+    }
+    .cart-counter{
+        display: block;
+        width: 13px;
+        height: 13px;
+        border-radius: 50px;
+        background: #fff;
+        color: #111;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: -13px;
+        bottom: 5%;
+        font-weight: 700;
+        font-size: 0.75em;
+    }
+}

@@ -5,17 +5,55 @@ html {
 
 body {
     margin: 0;
+    color: #fff;
+}
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
 }
 
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button {
+    border: none; 
+    outline: none;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
 main {
     display: block;
 }
-
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
 }
-
+h1, h2, h3, h4, h5, h6, p, span, a {
+    color: #fff;
+    margin: 0;
+}
+ul, ul li {
+    padding: 0;
+    margin: 0;
+}
 hr {
     box-sizing: content-box;
     height: 0;
@@ -29,8 +67,13 @@ pre {
 
 a {
     background-color: transparent;
+    text-decoration: none;
+    color: #fff;
 }
-
+li {
+    list-style: none;
+    list-style-type: none;
+}
 abbr[title] {
     border-bottom: none;
     text-decoration: underline;

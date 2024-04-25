@@ -9,6 +9,8 @@
 
 // Base
 @import './base/base';
+@import './base/base-tablet';
+@import './base/base-mobile';
 
 // Common
 @import './base/common';
@@ -24,10 +26,23 @@
 
 // Layout
 @import './layout/container';
+@import './layout/container-tablet';
+
 @import './layout/nav';
+@import './layout/nav-tablet';
+
 @import './layout/section';
+@import './layout/section-tablet';
+@import './layout/section-mobile';
+
 @import './layout/header';
+@import './layout/header-tablet';
+@import './layout/header-mobile';
+
 @import './layout/footer';
+@import './layout/footer-tablet';
+@import './layout/footer-mobile';
+
 @import './layout/page';
 
 // Pages

@@ -1,0 +1,191 @@
+.nav-popup {
+    display: none;
+}
+@media(max-width:1201px){
+    .footer {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }  
+    .footer__logo {
+        width: 73px;
+        margin-left: -4px;
+        .logo {
+            width: 73px;
+            height: 31px;
+        }
+    }   
+    .footer__nav {
+        margin-top: 10px;
+        gap: 13px;
+    }
+    .footer__title {
+        margin: 0;
+        grid-column: 1 / 2;
+    }
+    .footer__logistic {
+        gap: 12px;
+    }
+    .footer__shop {
+        grid-column: 1 / 2;
+        grid-row: 1/5;
+        margin-top: 30px;
+    }
+    .footer__info, .footer__discount, .footer__logistic {
+        grid-row: 1;
+    }
+    .footer-nav__list {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .footer__contact__logistic {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .footer__title-text {
+        font-size: 1.1em;
+    }
+    .footer-nav__item, .footer__info-text {
+        font-size: 0.83em;
+    }
+    .footer__contact__social-list{
+       gap: 10px; 
+    }
+    .footer__contact__social-item {
+        width: 21px;
+        height: 21px;
+    }
+    .footer__contact__logistic-link {
+        font-size: 1.16em;
+        line-height: 115%;
+    }
+    .footer_shit {
+        margin-top: -20px;
+    }
+    .overlay {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        visibility: hidden;
+        background-color: rgba(0, 0, 0, 0.7);
+        opacity: 1;
+        position: fixed;
+    }
+    .overlay:target {
+        body {
+            overflow: hidden;
+        }
+        visibility: visible;
+        opacity: 1;
+    }
+    .nav-popup {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 999;
+
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+        padding: 4px 30px 39px;
+        visibility: hidden;
+        background-color: #000;
+        opacity: 0;
+
+        -webkit-transition: all ease .5s;
+        -moz-transition: all ease .5s;
+        -ms-transition: all ease .5s;
+        -o-transition: all ease .5s;
+        transition: all ease .5s;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 51px;
+        .logo {
+            width: 142px;
+            height: 60px;
+        }
+        li, a, span {
+            font-size: 24px;
+            text-align: center;
+        }
+        .nav-popup__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .nav-popup__menu {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .nav-popup__contact {
+            margin-top: 75px;
+            display: flex;
+            flex-direction: column;
+            gap: 42px;
+        }
+        .nav-popup__contact-phone {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            img {
+                width: 25px;
+                height: 24px;
+            }
+        }
+        .nav-popup__social {
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            img {
+                width: 32px;
+                height: 32px;
+            }
+        }
+        .nav-popup__info {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            a {
+                text-align: center;
+                font-size: 16px;
+                color: rgba(255, 255, 255, 0.50); 
+                border-bottom: 1px solid rgba(255, 255, 255, 0.50); ;
+            }
+        }
+    }
+    .overlay:target+.nav-popup {
+        top: 0;
+        visibility: visible;
+        opacity: 1;
+    }
+    .close {
+        position: absolute;
+        top: 22px;
+        right: 22px;
+        width: 19px;
+        height: 19px;
+        background-image: url(../../assets/images/icon/close.svg);
+        background-repeat: no-repeat;
+        background-size: 19px 19px;
+        -webkit-transition: all ease .3s;
+        -moz-transition: all ease .3s;
+        -ms-transition: all ease .3s;
+        -o-transition: all ease .3s;
+        transition: all ease .3s;
+    }
+    
+    
+}
+

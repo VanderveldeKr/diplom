@@ -29,12 +29,944 @@
 
     <!-- Main -->
     <main class="main">
-        <img src="./assets/images/icon.svg" alt="">
-        <picture>
-            <source srcset="./assets/images/test.avif" type="image/avif">
-            <source srcset="./assets/images/test.webp" type="image/webp">
-            <img src="./assets/images/test.jpg" alt="Тест">
-        </picture>
+        <section class="welcome">
+            <div class="container">
+                <div class="welcome-wrapper">
+                    <div class="welcome__content">
+                        <div class="welcome__title">
+                            <h1 class="welcome__title-text">Уникальные технологии для ухода за волосами</h1>
+                        </div>
+                        <div class="welcome__subtitle">
+                            <p class="welcome__subtitle-text">Идеальная укладка для всех типов волос вместе с Dyson</p>
+                        </div>
+                        <div class="welcome__button">
+                            <a href="#" class="welcome__button-link" id="discount-btn">
+                                <span class="default-text">Получить скидку</span>
+                                <span class="hover-text">Подробнее</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="welcome__background-img">
+                        <picture class="welcome__image">
+                            <source media="(max-width: 768px)" srcset="./assets/images/home/welcome768.avif" type="image/avif">
+                            <source media="(max-width: 768px)" srcset="./assets/images/home/welcome768.png 1x, ./assets/images/home/welcome7682x.png 2x">
+
+                            <source media="(max-width: 1201px)" srcset="./assets/images/home/welcome1199.avif" type="image/avif">
+                            <source media="(max-width: 1201px)" srcset="./assets/images/home/welcome1199.png 1x, ./assets/images/home/welcome11992x.png 2x">
+        
+                            <img src="./assets/images/home/welcome.avif" srcset="./assets/images/home/welcome.png 1x, ./assets/images/home/welcome2x.png 2x" alt="Девушка держит в руках фен" class="welcome__image-src">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="category">
+            <div class="container">
+                <div class="category-wrapper">
+                    <div class="category__card">
+                        <div class="category__card-image">
+                            <picture>
+                                <source srcset="./assets/images/category/1.avif" type="image/avif">
+                                <img src="./assets/images/category/1.png" srcset="./assets/images/category/1.png 1x, ./assets/images/category/12x.png 2x" alt="Категория Акции">
+                            </picture>
+                        </div>
+                        <div class="category__card-content">
+                            <div class="category__card-name">
+                                <h3>Акции</h3>
+                            </div>
+                            <div class="category__card-link">
+                                <a href="#0">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category__card">
+                        <div class="category__card-image">
+                            <picture>
+                                <source srcset="./assets/images/category/2.avif" type="image/avif">
+                                <img src="./assets/images/category/2.png" srcset="./assets/images/category/2.png 1x, ./assets/images/category/22x.png 2x" alt="Категория Акции">
+                            </picture>
+                        </div>
+                        <div class="category__card-content">
+                            <div class="category__card-name">
+                                <h3>Фены</h3>
+                            </div>
+                            <div class="category__card-link">
+                                <a href="#0">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category__card">
+                        <div class="category__card-image">
+                            <picture>
+                                <source srcset="./assets/images/category/3.avif" type="image/avif">
+                                <img src="./assets/images/category/3.png" srcset="./assets/images/category/3.png 1x, ./assets/images/category/32x.png 2x" alt="Категория Акции">
+                            </picture>
+                        </div>
+                        <div class="category__card-content">
+                            <div class="category__card-name">
+                                <h3>Стайлеры</h3>
+                            </div>
+                            <div class="category__card-link">
+                                <a href="#0">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category__card">
+                        <div class="category__card-image">
+                            <picture>
+                                <source srcset="./assets/images/category/4.avif" type="image/avif">
+                                <img src="./assets/images/category/4.png" srcset="./assets/images/category/4.png 1x, ./assets/images/category/42x.png 2x" alt="Категория Акции">
+                            </picture>
+                        </div>
+                        <div class="category__card-content">
+                            <div class="category__card-name">
+                                <h3>Выпрямители</h3>
+                            </div>
+                            <div class="category__card-link">
+                                <a href="#0">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category__card">
+                        <div class="category__card-image">
+                            <picture>
+                                <source srcset="./assets/images/category/1.avif" type="image/avif">
+                                <img src="./assets/images/category/1.png" srcset="./assets/images/category/1.png 1x, ./assets/images/category/12x.png 2x" alt="Категория Акции">
+                            </picture>
+                        </div>
+                        <div class="category__card-content">
+                            <div class="category__card-name">
+                                <h3>Акции</h3>
+                            </div>
+                            <div class="category__card-link">
+                                <a href="#0">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category__card">
+                        <div class="category__card-image">
+                            <picture>
+                                <source srcset="./assets/images/category/2.avif" type="image/avif">
+                                <img src="./assets/images/category/2.png" srcset="./assets/images/category/2.png 1x, ./assets/images/category/22x.png 2x" alt="Категория Акции">
+                            </picture>
+                        </div>
+                        <div class="category__card-content">
+                            <div class="category__card-name">
+                                <h3>Фены</h3>
+                            </div>
+                            <div class="category__card-link">
+                                <a href="#0">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category__card">
+                        <div class="category__card-image">
+                            <picture>
+                                <source srcset="./assets/images/category/3.avif" type="image/avif">
+                                <img src="./assets/images/category/3.png" srcset="./assets/images/category/3.png 1x, ./assets/images/category/32x.png 2x" alt="Категория Акции">
+                            </picture>
+                        </div>
+                        <div class="category__card-content">
+                            <div class="category__card-name">
+                                <h3>Стайлеры</h3>
+                            </div>
+                            <div class="category__card-link">
+                                <a href="#0">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category__card">
+                        <div class="category__card-image">
+                            <picture>
+                                <source srcset="./assets/images/category/4.avif" type="image/avif">
+                                <img src="./assets/images/category/4.png" srcset="./assets/images/category/4.png 1x, ./assets/images/category/42x.png 2x" alt="Категория Акции">
+                            </picture>
+                        </div>
+                        <div class="category__card-content">
+                            <div class="category__card-name">
+                                <h3>Выпрямители</h3>
+                            </div>
+                            <div class="category__card-link">
+                                <a href="#0">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="experts">
+            <div class="container">
+                <div class="experts-wrapper">
+                    <div class="experts__content-wrapper">
+                        <div class="experts__title">
+                            <h2 class="title">Мнение экспертов о технике Dyson</h2>
+                        </div>
+                        <div class="experts__content">
+                            <p>Сегодня многие стилисты и салоны красоты в своей работе используют технику от Dyson.</p>
+                            <p>Несмотря на высокую стоимость, техника Dyson помогает экономить. Мастера тратят меньше времени на сушку и укладку волос, благодаря чему успевают обслужить большее количество клиентов. Также устройства  от Dyson потребляют значительно меньше электроэнергии, не теряя свою мощность.</p>
+                            <p>Фены Dyson универсальны. Они подходят для сушки разных типов волос. Насадки из комплекта помогают создавать укладки на любой вкус. Функциональность девайсов впечатляет не меньше, чем их уникальный дизайн.</p>
+                            <p>Ведущие стилисты отмечают, что техника Dyson для ухода за волосами идеально подходят для длительной работы за счет своей эргономичности. А за счет бесшумности инновационного мотора использование устройств стало максимально комфортным.</p>
+                        </div>
+                    </div>
+                    <div class="experts__background-img">
+                        <picture class="experts__image">
+                            <source srcset="./assets/images/home/experts.avif" type="image/avif">
+                            <img class="experts__image-src" src="./assets/images/home/experts.png" srcset="./assets/images/home/experts.png 1x, ./assets/images/home/experts2x.png 2x" alt="Девушка держит в руках фен">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="why-us">
+            <div class="container">
+                <div class="why-us-wrapper">
+                    <div class="why-us__title">
+                        <h2 class="title">Почему выбирают нас</h2>
+                    </div>
+                    <div class="why-us__content">
+                        <div class="why-us__content-card">
+                            <div class="why-us__content-card__icon">
+                                <img src="./assets/images/icon/why-us/1.svg" alt="">
+                            </div>
+                            <div class="why-us__content-card__title">
+                                <h3>Широкий ассортимент</h3>
+                            </div>
+                            <ul class="why-us__content-card__list">
+                                <li>Большой выбор техники и аксессуаров</li>
+                            </ul>
+                        </div>
+                        <div class="why-us__content-card">
+                            <div class="why-us__content-card__icon">
+                                <img src="./assets/images/icon/why-us/2.svg" alt="">
+                            </div>
+                            <div class="why-us__content-card__title">
+                                <h3>Быстрая доставка</h3>
+                            </div>
+                            <ul class="why-us__content-card__list">
+                                <li>По Москве — 2-3 часа;</li>
+                                <li>По России — 2-4 дня;</li>
+                            </ul>
+                        </div>
+                        <div class="why-us__content-card">
+                            <div class="why-us__content-card__icon">
+                                <img src="./assets/images/icon/why-us/3.svg" alt="">
+                            </div>
+                            <div class="why-us__content-card__title">
+                                <h3>Специальное предложение</h3>
+                            </div>
+                            <ul class="why-us__content-card__list">
+                                <li>Только для клиентов нашего сайта</li>
+                            </ul>
+                        </div>
+                        <div class="why-us__content-card">
+                            <div class="why-us__content-card__icon">
+                                <img src="./assets/images/icon/why-us/4.svg" alt="">
+                            </div>
+                            <div class="why-us__content-card__title">
+                                <h3>Гарантия производителя</h3>
+                            </div>
+                            <ul class="why-us__content-card__list">
+                                <li>Гарантия 2 года на устройства и аксессуары</li>
+                            </ul>
+                        </div>
+                        <div class="why-us__content-card">
+                            <div class="why-us__content-card__icon">
+                                <img src="./assets/images/icon/why-us/5.svg" alt="">
+                            </div>
+                            <div class="why-us__content-card__title">
+                                <h3>Безопасная оплата</h3>
+                            </div>
+                            <ul class="why-us__content-card__list">
+                                <li>Оплата после получения товара</li>
+                            </ul>
+                        </div>
+                        <div class="why-us__content-card">
+                            <div class="why-us__content-card__icon">
+                                <img src="./assets/images/icon/why-us/6.svg" alt="">
+                            </div>
+                            <div class="why-us__content-card__title">
+                                <h3>Бесплатная консультация</h3>
+                            </div>
+                            <ul class="why-us__content-card__list">
+                                <li>В любом удобном для вас формате, 7 дней в неделю</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="special-offers">
+            <div class="container">
+                <div class="special-offers-wrapper">
+                    <div class="title-wrapper">
+                        <h2 class="title">Спецпредложения</h2>
+                        <span class="title title__quantity">14</span>
+                    </div>
+                    <div class="special-offers__tegs">
+                        <ul class="special-offers__tegs-list">
+                            <li>dyson стайлер для длинных волос</li>
+                            <li>dyson стайлер красный</li>
+                            <li>фен щетка дайсон</li>
+                            <li>dyson hs01 airwrap compliete</li>
+                            <li>фен щетка дайсон</li>
+                        </ul>
+                        <a href="#0" class="special-offers__tegs-more">
+                            <span>Показать больше</span>
+                            <span style="display: none;">Скрыть</span>
+                        </a>
+                    </div>
+                    <form class="special-offers__filters" action="" method="get">
+                        <div class="filters-dropdown">
+                            <label class="filter-label">
+                                <select class="filter-list" name="">
+                                    <option value="">Сначала популярные</option>
+                                    <option value="">По цене</option>
+                                </select>
+                            </label>
+                        </div>
+                    </form>
+
+                    <div class="special-offers__slider">
+                        <div class="special-offers__slider-wrapper">
+                            <div class="slider-card">
+                                <div class="slider-card__content">
+                                    <div class="slider-card__image">
+                                        <picture>
+                                            <source srcset="./assets/images/special-offers/1.avif" type="image/avif">
+                                            <img src="./assets/images/special-offers/1.png" srcset="./assets/images/special-offers/1.png 1x, ./assets/images/special-offers/12x.png 2x" alt="Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческамия">
+                                        </picture>
+                                    </div>
+                                    <div class="slider-card__info">
+                                        <div class="slider-card__title">
+                                            <h4>Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческамия</h4>
+                                        </div>
+                                        <div class="slider-card__info-wrapper">
+                                            <div class="slider-card__availability">
+                                                <p class="slider-card__availability-text"><span></span>В наличии</p>
+                                                <p class="slider-card__discont">-15%</p>
+                                            </div>
+                                            <div class="slider-card__price">
+                                                <p class="slider-card__price-new">59 990Р</p>
+                                                <p class="slider-card__price-old">69 990 Р</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buy-card-wrapper">
+                                        <div class="buy-card__quantity">
+                                            <span>
+                                                <svg width="20" height="2" viewBox="0 0 20 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M19 1H1" stroke="#ABABAB" stroke-width="2" stroke-linecap="round"/>
+                                                </svg>
+                                            </span>
+                                            <span>1</span>
+                                            <span>
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M10.0003 19L10.0346 10M10.0003 1L10.0346 10M10.0346 10H19M10.0346 10H0.999999" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="buy-card__button">
+                                            <button type="submit">В корзину</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-card">
+                                <div class="slider-card__content">
+                                    <div class="slider-card__image">
+                                        <picture>
+                                            <source srcset="./assets/images/special-offers/2.avif" type="image/avif">
+                                            <img src="./assets/images/special-offers/2.png" srcset="./assets/images/special-offers/2.png 1x, ./assets/images/special-offers/22x.png 2x" alt="Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческамия">
+                                        </picture>
+                                    </div>
+                                    <div class="slider-card__info">
+                                        <div class="slider-card__title">
+                                            <h4>Фен Dyson Supersonic HD07 с 5 насадками и подставкой</h4>
+                                        </div>
+                                        <div class="slider-card__info-wrapper">
+                                            <div class="slider-card__availability">
+                                                <p class="slider-card__availability-text"><span></span>В наличии</p>
+                                                <p class="slider-card__discont">-15%</p>
+                                            </div>
+                                            <div class="slider-card__price">
+                                                <p class="slider-card__price-new">47 990Р</p>
+                                                <p class="slider-card__price-old">51 990 Р</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buy-card-wrapper">
+                                        <div class="buy-card__quantity">
+                                            <span>
+                                                <svg width="20" height="2" viewBox="0 0 20 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M19 1H1" stroke="#ABABAB" stroke-width="2" stroke-linecap="round"/>
+                                                </svg>
+                                            </span>
+                                            <span>1</span>
+                                            <span>
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M10.0003 19L10.0346 10M10.0003 1L10.0346 10M10.0346 10H19M10.0346 10H0.999999" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="buy-card__button">
+                                            <button type="submit">В корзину</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-card">
+                                <div class="slider-card__content">
+                                    <div class="slider-card__image">
+                                        <picture>
+                                            <source srcset="./assets/images/special-offers/3.avif" type="image/avif">
+                                            <img src="./assets/images/special-offers/3.png" srcset="./assets/images/special-offers/3.png 1x, ./assets/images/special-offers/32x.png 2x" alt="Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческамия">
+                                        </picture>
+                                    </div>
+                                    <div class="slider-card__info">
+                                        <div class="slider-card__title">
+                                            <h4>Фен Dyson Supersonic 4 насадки HD03 с чехлом для хранения цвет сирень</h4>
+                                        </div>
+                                        <div class="slider-card__info-wrapper">
+                                            <div class="slider-card__availability">
+                                                <p class="slider-card__availability-text"><span></span>В наличии</p>
+                                                <p class="slider-card__discont">-15%</p>
+                                            </div>
+                                            <div class="slider-card__price">
+                                                <p class="slider-card__price-new">46 990Р</p>
+                                                <p class="slider-card__price-old">51 990 Р</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buy-card-wrapper">
+                                        <div class="buy-card__quantity">
+                                            <span>
+                                                <svg width="20" height="2" viewBox="0 0 20 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M19 1H1" stroke="#ABABAB" stroke-width="2" stroke-linecap="round"/>
+                                                </svg>
+                                            </span>
+                                            <span>1</span>
+                                            <span>
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M10.0003 19L10.0346 10M10.0003 1L10.0346 10M10.0346 10H19M10.0346 10H0.999999" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="buy-card__button">
+                                            <button type="submit">В корзину</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-card">
+                                <div class="slider-card__content">
+                                    <div class="slider-card__image">
+                                        <picture>
+                                            <source srcset="./assets/images/special-offers/1.avif" type="image/avif">
+                                            <img src="./assets/images/special-offers/1.png" srcset="./assets/images/special-offers/1.png 1x, ./assets/images/special-offers/12x.png 2x" alt="Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческамия">
+                                        </picture>
+                                    </div>
+                                    <div class="slider-card__info">
+                                        <div class="slider-card__title">
+                                            <h4>Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческамия</h4>
+                                        </div>
+                                        <div class="slider-card__info-wrapper">
+                                            <div class="slider-card__availability">
+                                                <p class="slider-card__availability-text"><span></span>В наличии</p>
+                                                <p class="slider-card__discont">-15%</p>
+                                            </div>
+                                            <div class="slider-card__price">
+                                                <p class="slider-card__price-new">59 990Р</p>
+                                                <p class="slider-card__price-old">69 990 Р</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buy-card-wrapper">
+                                        <div class="buy-card__quantity">
+                                            <span>
+                                                <svg width="20" height="2" viewBox="0 0 20 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M19 1H1" stroke="#ABABAB" stroke-width="2" stroke-linecap="round"/>
+                                                </svg>
+                                            </span>
+                                            <span>1</span>
+                                            <span>
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M10.0003 19L10.0346 10M10.0003 1L10.0346 10M10.0346 10H19M10.0346 10H0.999999" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="buy-card__button">
+                                            <button type="submit">В корзину</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-card">
+                                <div class="slider-card__content">
+                                    <div class="slider-card__image">
+                                        <picture>
+                                            <source srcset="./assets/images/special-offers/2.avif" type="image/avif">
+                                            <img src="./assets/images/special-offers/2.png" srcset="./assets/images/special-offers/2.png 1x, ./assets/images/special-offers/22x.png 2x" alt="Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческамия">
+                                        </picture>
+                                    </div>
+                                    <div class="slider-card__info">
+                                        <div class="slider-card__title">
+                                            <h4>Фен Dyson Supersonic HD07 с 5 насадками и подставкой</h4>
+                                        </div>
+                                        <div class="slider-card__info-wrapper">
+                                            <div class="slider-card__availability">
+                                                <p class="slider-card__availability-text"><span></span>В наличии</p>
+                                                <p class="slider-card__discont">-15%</p>
+                                            </div>
+                                            <div class="slider-card__price">
+                                                <p class="slider-card__price-new">47 990Р</p>
+                                                <p class="slider-card__price-old">51 990 Р</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buy-card-wrapper">
+                                        <div class="buy-card__quantity">
+                                            <span>
+                                                <svg width="20" height="2" viewBox="0 0 20 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M19 1H1" stroke="#ABABAB" stroke-width="2" stroke-linecap="round"/>
+                                                </svg>
+                                            </span>
+                                            <span>1</span>
+                                            <span>
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M10.0003 19L10.0346 10M10.0003 1L10.0346 10M10.0346 10H19M10.0346 10H0.999999" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="buy-card__button">
+                                            <button type="submit">В корзину</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-card">
+                                <div class="slider-card__content">
+                                    <div class="slider-card__image">
+                                        <picture>
+                                            <source srcset="./assets/images/special-offers/3.avif" type="image/avif">
+                                            <img src="./assets/images/special-offers/3.png" srcset="./assets/images/special-offers/3.png 1x, ./assets/images/special-offers/32x.png 2x" alt="Фен Dyson Supersonic HD07 синий медный с 5 насадками в чехле и расческамия">
+                                        </picture>
+                                    </div>
+                                    <div class="slider-card__info">
+                                        <div class="slider-card__title">
+                                            <h4>Фен Dyson Supersonic 4 насадки HD03 с чехлом для хранения цвет сирень</h4>
+                                        </div>
+                                        <div class="slider-card__info-wrapper">
+                                            <div class="slider-card__availability">
+                                                <p class="slider-card__availability-text"><span></span>В наличии</p>
+                                                <p class="slider-card__discont">-15%</p>
+                                            </div>
+                                            <div class="slider-card__price">
+                                                <p class="slider-card__price-new">46 990Р</p>
+                                                <p class="slider-card__price-old">51 990 Р</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buy-card-wrapper">
+                                        <div class="buy-card__quantity">
+                                            <span>
+                                                <svg width="20" height="2" viewBox="0 0 20 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M19 1H1" stroke="#ABABAB" stroke-width="2" stroke-linecap="round"/>
+                                                </svg>
+                                            </span>
+                                            <span>1</span>
+                                            <span>
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M10.0003 19L10.0346 10M10.0003 1L10.0346 10M10.0346 10H19M10.0346 10H0.999999" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="buy-card__button">
+                                            <button type="submit">В корзину</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="special-offers__slider-button">
+                            <div class="slider-button slider-button--prev"><img src="./assets/images/icon/arrow.svg" alt="Предыдущий слайд"></div>
+                            <div class="slider-button slider-button--next"><img src="./assets/images/icon/arrow.svg" alt="Следующий слайд"></div>
+                            <div class="slider-button__info">
+                                <span class="slider-button__info-active">1</span>
+                                <span>из</span>
+                                <span class="slider-button__info-quantity">3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <div class="reviews-wrapper">
+                    <div class="title-wrapper">
+                        <h2 class="title">Отзывы</h2>
+                        <span class="title title__quantity">151</span>
+                    </div>
+                    <div class="reviews-content">
+                        <div class="reviews-content__title">
+                            <div class="reviews__overall-rating-group">
+                                <div class="reviews__overall-rating__number">
+                                    <span class="reviews__overall-rating__number__active">5</span>
+                                    <span>/</span>
+                                    <span>5</span>
+                                </div>
+                                <ul class="reviews__overall-rating__star">
+                                    <li>
+                                        <img src="./assets/images/icon/star.svg" alt="Звезда оценки №1">
+                                    </li>
+                                    <li>
+                                        <img src="./assets/images/icon/star.svg" alt="Звезда оценки №2">
+                                    </li>
+                                    <li>
+                                        <img src="./assets/images/icon/star.svg" alt="Звезда оценки №3">
+                                    </li>
+                                    <li>
+                                        <img src="./assets/images/icon/star.svg" alt="Звезда оценки №4">
+                                    </li>
+                                    <li>
+                                        <img src="./assets/images/icon/star.svg" alt="Звезда оценки №5">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="reviews__write-button">
+                                <button type="submit">Написть отзыв</button>
+                            </div>
+                        </div>
+                        <ul class="reviews-content-wrapper">
+                            <li class="reviews-content__card">
+                                <div class="reviews-card">
+                                    <div class="reviews-card-wrapper">
+                                        <div class="reviews-card__name-group">
+                                            <div class="reviews-card__name">
+                                                <h4>Ольга</h4>
+                                            </div>
+                                            <ul class="reviews-card__group-star">
+                                                <li>
+                                                    <img src="./assets/images/icon/star.svg" alt="Звезда оценки №1">
+                                                </li>
+                                                <li>
+                                                    <img src="./assets/images/icon/star.svg" alt="Звезда оценки №2">
+                                                </li>
+                                                <li>
+                                                    <img src="./assets/images/icon/star.svg" alt="Звезда оценки №3">
+                                                </li>
+                                                <li>
+                                                    <img src="./assets/images/icon/star.svg" alt="Звезда оценки №4">
+                                                </li>
+                                                <li>
+                                                    <img src="./assets/images/icon/star.svg" alt="Звезда оценки №5">
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="review">
+                                            <div class="review__title">
+                                                <h5>Это лучший фен!</h5>
+                                            </div>
+                                            <div class="review__text">
+                                                <p>Пользуюсь около месяца, хочу поделиться впечатлениями. Во-первых, фен очень легкий, удобно лежит в руке, не скользит. Кнопка включения и выключения расположена удобно, а не где-то сбоку. Мощность у фена хорошая, волосы сушит быстро</p>
+                                            </div>
+                                            <div class="review__photo">
+                                                <ul class="review__photo-list">
+                                                    <li>
+                                                        <picture>
+                                                            <source srcset="./assets/images/reviews/reviews.avif" type="image/avif">
+                                                            <img src="./assets/images/reviews/reviews.png" srcset="./assets/images/reviews/reviews.png 1x, ./assets/images/reviews/reviews2x.png 2x" alt="Фото товара от пользователя'">
+                                                        </picture>
+                                                    </li>
+                                                    <li>
+                                                        <picture>
+                                                            <source srcset="./assets/images/reviews/reviews.avif" type="image/avif">
+                                                            <img src="./assets/images/reviews/reviews.png" srcset="./assets/images/reviews/reviews.png 1x, ./assets/images/reviews/reviews2x.png 2x" alt="Фото товара от пользователя'">
+                                                        </picture>
+                                                    </li>
+                                                    <li>
+                                                        <picture>
+                                                            <source srcset="./assets/images/reviews/reviews.avif" type="image/avif">
+                                                            <img src="./assets/images/reviews/reviews.png" srcset="./assets/images/reviews/reviews.png 1x, ./assets/images/reviews/reviews2x.png 2x" alt="Фото товара от пользователя'">
+                                                        </picture>
+                                                    </li>
+                                                </ul>
+                                                <a class="review__photo-more" href="#0">Смотреть все фото</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews-card__date-wrapper">
+                                        <p>21/05/2022</p>
+                                    </div>
+                                </div>                                
+                            </li>
+                            <li class="reviews-content__card">
+                                <div class="reviews-card">
+                                    <div class="reviews-card-wrapper">
+                                        <div class="reviews-card__name-group">
+                                            <div class="reviews-card__name">
+                                                <h4>Татьяна</h4>
+                                            </div>
+                                            <ul class="reviews-card__group-star">
+                                                <li>
+                                                    <img src="./assets/images/icon/star.svg" alt="Звезда оценки №1">
+                                                </li>
+                                                <li>
+                                                    <img src="./assets/images/icon/star.svg" alt="Звезда оценки №2">
+                                                </li>
+                                                <li>
+                                                    <img src="./assets/images/icon/star.svg" alt="Звезда оценки №3">
+                                                </li>
+                                                <li>
+                                                    <img src="./assets/images/icon/star.svg" alt="Звезда оценки №4">
+                                                </li>
+                                                <li>
+                                                    <img src="./assets/images/icon/star.svg" alt="Звезда оценки №5">
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="review">
+                                            <div class="review__title">
+                                                <h5>Отличный фен</h5>
+                                            </div>
+                                            <div class="review__text">
+                                                <p>Фен очень понравился. Качественный, стильный: свою цену полностью оправдывает!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews-card__date-wrapper">
+                                        <p>21/05/2022</p>
+                                    </div>
+                                </div>                                
+                            </li>
+                            <li class="reviews-content__card">
+                                <div class="reviews-card">
+                                    <div class="reviews-card-wrapper">
+                                        <div class="reviews-card__name-group">
+                                            <div class="reviews-card__name">
+                                                <h4>Виктор</h4>
+                                            </div>
+                                            <ul class="reviews-card__group-star">
+                                                <li>
+                                                    <img src="./assets/images/icon/star.svg" alt="Звезда оценки №1">
+                                                </li>
+                                                <li>
+                                                    <img src="./assets/images/icon/star.svg" alt="Звезда оценки №2">
+                                                </li>
+                                                <li>
+                                                    <img src="./assets/images/icon/star.svg" alt="Звезда оценки №3">
+                                                </li>
+                                                <li>
+                                                    <img src="./assets/images/icon/star.svg" alt="Звезда оценки №4">
+                                                </li>
+                                                <li>
+                                                    <img src="./assets/images/icon/star.svg" alt="Звезда оценки №5">
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="review">
+                                            <div class="review__title">
+                                                <h5>Быстро пришел</h5>
+                                            </div>
+                                            <div class="review__text">
+                                                <p>Фен очень понравился. Качественный, стильный: свою цену полностью оправдывает!</p>
+                                            </div>
+                                            <div class="review__photo">
+                                                <ul class="review__photo-list">
+                                                    <li>
+                                                        <picture>
+                                                            <source srcset="./assets/images/reviews/reviews.avif" type="image/avif">
+                                                            <img src="./assets/images/reviews/reviews.png" srcset="./assets/images/reviews/reviews.png 1x, ./assets/images/reviews/reviews2x.png 2x" alt="Фото товара от пользователя'">
+                                                        </picture>
+                                                    </li>
+                                                </ul>
+                                                <a class="review__photo-more" href="#0">Смотреть все фото</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews-card__date-wrapper">
+                                        <p>21/05/2022</p>
+                                    </div>
+                                </div>                                
+                            </li>
+                        </ul>
+                        <div class="button-more">
+                            <a href="#0"><span>Показать еще</span><span><img src="./assets/images/icon/arrow.svg" alt=""></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="accordion">
+            <div class="container">
+                <div class="accordion-wrapper">
+                    <div class="title-wrapper">
+                        <h2 class="title">FAQ — Часто задаваемые вопросы</h2>
+                    </div>
+                    <ul class="accordion-content">
+                        <li class="accordion-item">
+                            <button class="accordion-header">
+                                <span>Главное отличие фена Dyson в быстром и безопасном высушивании волос?</span>
+                                <span><img src="./assets/images/icon/open.svg" alt="Открыть содержимое"></span>
+                            </button>
+                            <div class="accordion-content__text">
+                                <p></p>
+                            </div>
+                        </li>
+                        <li class="accordion-item">
+                            <button class="accordion-header">
+                                <span>В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов?</span>
+                                <span><img src="./assets/images/icon/open.svg" alt="Открыть содержимое"></span>
+                            </button>
+                            <div class="accordion-content__text">
+                                <p></p>
+                            </div>
+                        </li>
+                        <li class="accordion-item">
+                            <button class="accordion-header">
+                                <span>Главное отличие фена Dyson в быстром и безопасном высушивании волос?</span>
+                                <span><img src="./assets/images/icon/open.svg" alt="Открыть содержимое"></span>
+                            </button>
+                            <div class="accordion-content__text">
+                                <p></p>
+                            </div>
+                        </li>
+                        <li class="accordion-item">
+                            <button class="accordion-header">
+                                <span>Главное отличие фена Dyson в быстром и безопасном высушивании волос?</span>
+                                <span><img src="./assets/images/icon/open.svg" alt="Открыть содержимое"></span>
+                            </button>
+                            <div class="accordion-content__text">
+                                <p></p>
+                            </div>
+                        </li>
+                        <li class="accordion-item">
+                            <button class="accordion-header">
+                                <span>В рукоятку встроен датчик температуры, благодаря которому она не поднимается выше 100 градусов?</span>
+                                <span><img src="./assets/images/icon/open.svg" alt="Открыть содержимое"></span>
+                            </button>
+                            <div class="accordion-content__text">
+                                <p></p>
+                            </div>
+                        </li>
+                        <li class="accordion-item active">
+                            <button class="accordion-header">
+                                <span>Главное отличие фена Dyson в быстром и безопасном высушивании волос?</span>
+                                <span><img src="./assets/images/icon/open.svg" alt="Открыть содержимое"></span>
+                            </button>
+                            <div class="accordion-content__text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus asperiores doloribus perferendis sunt assumenda explicabo quam molestias. Commodi debitis in itaque quae, pariatur optio ipsum quia, officiis culpa quaerat ipsa quam, provident porro impedit voluptas aliquid. Dicta vitae maxime qui nesciunt voluptate aut, hic reiciendis necessitatibus harum ipsa sunt rem, perspiciatis aperiam consequatur doloremque, minus quos obcaecati quasi tempora architecto. Numquam, corporis possimus neque amet sequi voluptas doloremque animi soluta ut totam unde in fuga sapiente iusto, quas dolores voluptatibus reprehenderit quasi officiis minus similique ea cum aliquid facere. Nihil velit aut enim rem officiis beatae necessitatibus consequuntur quam facere!</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="news">
+            <div class="container">
+                <div class="news-wrapper">
+                    <div class="title-wrapper">
+                        <h2 class="title">Новости</h2>
+                    </div>
+                    <div class="news-content">
+                        <ul class="news__group-card">
+                            <li class="news-card">
+                                <div class="news-card__img">
+                                    <picture>
+                                        <source srcset="./assets/images/news/news.avif" type="image/avif">
+                                        <img src="./assets/images/news/news.png" srcset="./assets/images/news/news.png 1x, ./assets/images/news/news2x.png 2x" alt="Логотип с надписью 'dyson'">
+                                    </picture>
+                                </div>
+                                <div class="news-card__date">
+                                    <p>21 декабря 2022</p>
+                                </div>
+                                <div class="news-card__title">
+                                    <h5>Есть ли безопасные выпрямители для волос</h5>
+                                </div>
+                                <div class="news-card__text">
+                                    <p>Добавьте объем и рельеф коротким волосам. Посмотрите, как создать мягкие, легкие локоны и волны на коротких волосах и волосах средней длины.</p>
+                                </div>
+                                <div class="news-card__link">
+                                    <a href="#0">Читать далее</a>
+                                </div>
+                            </li>
+                            <li class="news-card">
+                                <div class="news-card__img">
+                                    <picture>
+                                        <source srcset="./assets/images/news/news.avif" type="image/avif">
+                                        <img src="./assets/images/news/news.png" srcset="./assets/images/news/news.png 1x, ./assets/images/news/news2x.png 2x" alt="Логотип с надписью 'dyson'">
+                                    </picture>
+                                </div>
+                                <div class="news-card__date">
+                                    <p>21 декабря 2022</p>
+                                </div>
+                                <div class="news-card__title">
+                                    <h5>Есть ли безопасные выпрямители для волос</h5>
+                                </div>
+                                <div class="news-card__text">
+                                    <p>Добавьте объем и рельеф коротким волосам. Посмотрите, как создать мягкие, легкие локоны и волны на коротких волосах и волосах средней длины.</p>
+                                </div>
+                                <div class="news-card__link">
+                                    <a href="#0">Читaть далее</a>
+                                </div>
+                            </li>
+                            <li class="news-card">
+                                <div class="news-card__img">
+                                    <picture>
+                                        <source srcset="./assets/images/news/news.avif" type="image/avif">
+                                        <img src="./assets/images/news/news.png" srcset="./assets/images/news/news.png 1x, ./assets/images/news/news2x.png 2x" alt="Логотип с надписью 'dyson'">
+                                    </picture>
+                                </div>
+                                <div class="news-card__date">
+                                    <p>21 декабря 2022</p>
+                                </div>
+                                <div class="news-card__title">
+                                    <h5>Есть ли безопасные выпрямители для волос</h5>
+                                </div>
+                                <div class="news-card__text">
+                                    <p>Добавьте объем и рельеф коротким волосам. Посмотрите, как создать мягкие, легкие локоны и волны на коротких волосах и волосах средней длины.</p>
+                                </div>
+                                <div class="news-card__link">
+                                    <a href="#0">Читать далее</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="button-more">
+                            <a href="#0"><span>Показать еще</span><span><img src="./assets/images/icon/arrow.svg" alt=""></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="connection">
+            <div class="container">
+                <form class="connection-form" action="">
+                    <div class="connect-with">
+                        <div class="connect-title">
+                            <h6>Свяжитесь с нами</h6>
+                        </div>
+                        <div class="form-list">
+                            <input class="form-name" type="name" name="name" placeholder="Ваше имя">
+                            <input class="form-phone phone" type="tel" name="phone" placeholder="Ваш номер телефона">
+                        </div>
+                        <button class="form-button form-button--with" type="button">Оставить заявку</button>   
+                    </div>
+                    <div class="connect-subscribe">
+                        <div class="connect-title">
+                            <h6>Подпишитесь на новости</h6>    
+                        </div>         
+                        <div class="form-list">
+                            <input class="form-phone" type="email" name="email" placeholder="Ваш e-mail">
+                        </div>
+                        <button class="form-button form-button--subscribe" type="button">Подписаться</button>   
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="checkbox">
+                            <label for="checkbox"><a href="#0" target="_blank">Я ознакомлен(а) с политикой конфиденциальности и согласен(а) с обработкой персональных данных  </a></label>
+                        </div>     
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
     <!-- End Main -->
 

@@ -1,0 +1,126 @@
+.back-call {
+    width: 1040px;
+    position: fixed;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 2px #111111 solid;
+    z-index: 999;
+    transition: top 0.5s ease-in-out; /* Анимация для свойства top */
+}
+
+.back-call-wrapper {
+    padding: 0 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    a {
+        width: 60%;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        color: #909090; 
+        font-size: 0.66em;
+        text-align: center;
+    }
+}
+.back-call__close {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: #fff;
+
+
+    position: absolute;
+    top: -50px;
+    right: 0;
+    img {
+        width: 20px;
+        height: 20px;
+    }
+}
+.back-call__title {
+    margin: 40px 0;
+    h4 {
+        color: #111111; 
+        font-size: 2.33em; 
+        font-family: 'NAMU'; 
+        font-weight: 700; 
+        line-height: 48px;
+    }
+}
+.back-call__form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
+.back-call__form-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.back-call__form-list {
+    width: 100%;
+    input {
+        padding: 18px 30px;
+        width: 100%;
+        border: 1px #ABABAB solid;
+        &::placeholder {
+            color: #909090;
+        }
+    }
+}
+.back-call__form-btn {
+    padding: 15px 0;
+    background: #C5358C;
+    font-size: 0.89em; 
+    color: #fff;
+    font-family: 'NAMU'; 
+    font-weight: 500; 
+    line-height: 25px;
+    transition: .3s;
+    &:hover {
+        background: #111;
+        transition: .3s;
+    }
+}
+@media(max-width:1201px) {
+    .back-call {
+        width: 728px;
+    }
+    .back-call-wrapper {
+        padding: 0 92px;
+    }
+}
+@media(max-width:769px) {
+    .back-call {
+        width: 98%;
+    }
+    .back-call-wrapper {
+        padding:20px;
+        a {
+            width: 80%;
+            font-size: 1em;
+        }
+    }
+    .back-call__title {
+        h4 {
+            font-size: 2em; 
+            line-height: 115%;
+        }
+    }
+    .back-call__form-btn {
+        font-size: 1.33em;
+    }
+}
+
+.back-call--active {
+    top: 50%; /* Выезжаем блок на 50% от верхнего края экрана */
+}

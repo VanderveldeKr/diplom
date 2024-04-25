@@ -1,1 +1,36 @@
-<header class="header"></header>
+<header class="header">
+    <div class="container">
+        <div class="header-wrapper">
+            <div class="header__logo">
+                <div class="header__button">
+                    <a href="#mobile-nav" class="button"><img src="./assets/images/icon/burger.svg" alt="Кнопка меню"></a>
+                </div>
+    
+                <picture class="logo">
+                    <source media="(max-width: 768px)" srcset="./assets/images/logo/logo767.avif" type="image/avif">
+                    <source media="(max-width: 768px)" srcset="./assets/images/logo/logo767.png 1x, ./assets/images/logo/logo7672x.png 2x">
+                    
+                    <source media="(max-width: 1201px)" srcset="./assets/images/logo/logo1199.avif" type="image/avif">
+                    <source media="(max-width: 1201px)" srcset="./assets/images/logo/logo1199.png 1x, ./assets/images/logo/logo11992x.png 2x">
+                
+                    <img src="./assets/images/logo/logo.avif" srcset="./assets/images/logo/logo.png 1x, ./assets/images/logo/logo2x.png 2x" alt="Логотип с надписью 'dyson'" class="logo__image">
+                </picture>
+            </div>
+            <nav class="header__nav">
+                <ul class="header-nav__list">
+                    <li class="header-nav__item"><a href="#" class="header-nav__link">О нас</a></li>
+                    <li class="header-nav__item"><a href="#" class="header-nav__link">Доставка и оплата</a></li>
+                    <li class="header-nav__item"><a href="#" class="header-nav__link">Регистрация продукта</a></li>
+                    <li class="header-nav__item"><a href="#" class="header-nav__link">Сервис</a></li>
+                    <li class="header-nav__item"><a href="#" class="header-nav__link">Сертификаты и лицензии</a></li>
+                </ul>
+                <div class="header-nav__cart-btn">
+                    <a href="#" class="header-nav__cart-link"><img src="./assets/images/icon/cart.svg" alt="Иконка корзины" class="header-nav__cart-icon"></a>
+                    <span class="cart-counter" >1</span>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+

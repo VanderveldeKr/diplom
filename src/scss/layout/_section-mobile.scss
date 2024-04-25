@@ -1,0 +1,348 @@
+@media(max-width:768px){
+    // welcome start
+    .welcome-wrapper {
+        padding-top: 50px;
+        padding-bottom: 178px;
+    }
+    .welcome__content {
+        width: 96%;
+        gap: 16px;
+    }
+    .welcome__background-img {
+        right: -20px;
+    }
+    .welcome__title-text {
+        font-size: 2em;
+        line-height: 115%;
+    }
+    .welcome__subtitle {
+        max-width: 200px;
+    }
+    .welcome__subtitle-text {
+        line-height: 115%;
+    }
+    .welcome__button {
+        margin-top: 30px;
+    }
+    .welcome__button-link {
+        width: 177px;
+    }
+    .welcome__image-src {
+        width: 280px;
+    }
+// welcome end
+
+
+// category start
+    .category {
+        padding-top: 31px;
+        padding-bottom: 46px;
+    }
+    .category-wrapper {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .category__card {
+        .category__card-image {
+            margin: 0 auto;
+        }
+        .category__card-content {
+            padding: 10px 14px 16px 12px;
+            gap: 10px;
+        }
+        .category__card-name {
+            h3 {
+                font-size: 1.08em;
+                line-height: 115%;
+            }
+        }
+        .category__card-link {
+            a {
+                font-size: 0.98em;
+                line-height: 115%;
+            }
+        }
+    }
+// category end
+
+
+// experts start
+    .experts-wrapper {
+        padding: 46px 0;
+    }
+    .experts__content {
+        max-width: 100%;
+        gap: 3px;
+        p{
+            line-height: 115%;
+        }
+    }
+// experts end
+
+
+// why-us start
+    .why-us {
+        padding: 46px 0;
+    }
+    .why-us-wrapper {
+        gap: 30px;
+    }
+    .why-us__content {
+        grid-template-columns: 1fr;
+    }
+    .why-us__content-card {
+        padding: 16px 33px 26px 33px;
+        gap: 10px;
+        display: grid;
+        column-gap: 23px;
+        row-gap: 8px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .why-us__content-card__icon {
+        grid-row: 1/3;
+    }
+    .why-us__content-card__title {
+        grid-row: 1/2;
+        grid-column: 2/4;
+    }
+    .why-us__content-card__list {
+        padding: 0;
+        grid-row: 2/3;
+        grid-column: 2/4;
+    }
+    .why-us__content-card__title {
+        h3{
+            font-size: 1.08em;
+        }
+    }
+    .why-us__content-card__list {
+        li {
+            font-size: 1em;
+        }
+    }
+// why-us end
+
+
+// special-offers start
+    .special-offers {
+        padding-top: 30px;
+        padding-bottom: 46px;
+    }
+    .special-offers__tegs {
+        margin-top: 20px;
+        margin-bottom: 17px;
+        position: relative;
+    }
+    .special-offers__tegs-list {
+        gap: 10px;
+    }
+    .special-offers__tegs-more {
+        position: absolute;
+        background-origin: 0;
+        right: 0;
+        bottom: -20px;
+    }
+    .special-offers__filters {
+        margin-top: 10px;
+    }
+    .special-offers__slider {
+        gap: 30px;
+    }
+    .special-offers__slider-wrapper {
+        margin-top: 38px;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .slider-card__info {
+        gap: 12px;
+        padding: 10px;
+    }
+    .slider-card__title {
+        h4 {
+            font-size: 0.83em; 
+        }
+    }
+    .slider-card__info-wrapper {
+        gap: 9px;
+    }
+    .slider-card__availability-text {
+        font-size: 0.83em;
+        span{
+            width: 10px;
+            height: 10px;
+        }
+    }
+    .slider-card__discont {
+        padding: 1px 10px;
+    }
+    .slider-card__price-new {
+        font-size: 1.41em;    
+    }
+
+.buy-card__button {
+    button {
+        padding: 8px 0;
+    }
+}
+// special-offers end
+
+
+// reviews start
+    .reviews {
+        padding: 46px 0;
+    }
+    .reviews-wrapper {
+        gap: 16px;
+    }
+    .reviews-content__title {
+        gap: 0;
+        justify-content: space-between;
+    }
+    .reviews-content__card {
+        position: relative;
+    }
+    .reviews-card__date-wrapper {
+        height: fit-content;
+        position: absolute;
+        top: 30px;
+        right: 0;
+    }
+    .reviews__overall-rating__star {
+        li {
+            img {
+                width: 15px;
+                height: 15px;
+            }
+        }
+    }
+    .reviews__write-button {
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+        }
+    }
+    .reviews-card-wrapper {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .reviews-card__group-star {
+        gap: 2px;
+        img {
+            width: 15px;
+            height: 15px;
+        }
+    }
+    .review {
+        max-width: 100%;
+    }
+    .review__title {
+        h5 {
+            line-height: 115%;
+        }
+    }
+    .review__photo-list {
+        max-width: 90%;
+        li {
+            width: 80px;
+            height: 80px;
+        }
+    }
+
+    .button-more {
+        margin-top: 30px;
+        a {
+            padding: 8px 21px 8px 27px;
+        }
+    }
+// reviews end
+
+
+// accordion start
+    .accordion {
+        padding: 46px 0;
+    }
+    .accordion-wrapper {
+        gap: 38px;
+    }
+    .accordion-item {
+        padding: 16px 0;
+    }
+    .accordion-header {
+        img {
+            width: 25px;
+            height: 25px;
+        }
+    }
+    .accordion-content__text {
+        padding: 8px;
+    }
+// accordion end
+
+
+// news start
+    .news {
+        padding: 46px 0;
+    }
+    .news-content {
+        gap: 30px;
+
+        .button-more {
+            margin-top: 0;
+        }
+    }
+    .news__group-card {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 30px;
+    }
+    .news-card__img {
+        height: 113px;
+    }
+    .news-card__date {
+        margin-top: 10px;
+    }
+    .news-card__title {
+        margin-top: 6px;
+        h5 {
+            font-size: 1em;
+        }
+    }
+    .news-card__text {
+        margin-top: 6px;
+        p {
+            font-size: 0.83em;
+        }
+    }
+    .news-card__link {
+        margin-top: 6px;
+    }
+// news end
+
+
+// connection start
+    .connection {
+        padding-top: 40px;
+        padding-bottom: 45px;
+    }
+    .connection-form {
+        gap: 46px;
+        flex-direction: column;
+    }
+    .connect-with, .connect-subscribe {
+        width: 100%;
+    }
+    .form-list {
+        gap: 14px;
+        input {
+            padding: 6px 0;
+        }
+    }
+.form-button {
+    margin-top: 36px;
+    padding: 8px 25px;
+}
+.form-checkbox {
+    width: 90%;
+}
+// connection end
+}
